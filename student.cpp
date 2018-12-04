@@ -9,5 +9,5 @@ void student::setName(string first, string last)
 string student::fullName()
 {
 
-        return firstName + lastName;
+        return firstName + " " + lastName;
 }
